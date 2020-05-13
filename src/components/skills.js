@@ -23,11 +23,12 @@ const StyledUl = styled.ul`
 const StyledLi = styled.li`
     font-size: 2vw;
     line-height: 3vw;
-    font-weight: 300;
+    font-family: "Lato";
+    font-weight: 100;
     margin-bottom: 35px;
 
     @media (orientation: portrait) {
-        font-weight:400;
+        font-weight: 200;
         font-size: 3.5vw;
         line-height: 4vw;
     }
@@ -47,7 +48,7 @@ const Skills = () => (
                 <StyledLi>Gulp</StyledLi>
                 <StyledLi>Gatsby</StyledLi>
                 <StyledLi>Visual Studio <br />Code</StyledLi>
-                <StyledLi>GIT</StyledLi>
+                <StyledLi>Wordpress</StyledLi>
             </StyledUl>
             <StyledUl>
                 <StyledLi>REST <br />Api</StyledLi>
@@ -57,7 +58,7 @@ const Skills = () => (
                 <StyledLi>ORM</StyledLi>
                 <StyledLi>Agile</StyledLi>
                 <StyledLi>Scrum</StyledLi>
-                <StyledLi>Teamwork</StyledLi>
+                <StyledLi>GIT</StyledLi>
             </StyledUl>
             <StyledUl>
                 <StyledLi>Java 8</StyledLi>

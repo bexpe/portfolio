@@ -9,13 +9,13 @@ const StyledGameHeading = styled.h2`
     justify-content: center;
     font-weight: 500;
     font-family: 'Lato';
-    line-height: 6vw;
-    font-size: 5vw;
+    line-height: 5vw;
+    font-size: 4vw;
     color: #3b3b3b;
 
     @media (min-width: 640px) {
-        line-height: 5vw;
-        font-size: 4vw;
+        line-height: 4vw;
+        font-size: 2.5vw;
     }
 `;
 

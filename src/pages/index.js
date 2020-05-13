@@ -9,6 +9,7 @@ import Gallery from "../components/gallery/gallery"
 import Skills from "../components/skills"
 import Contact from "../components/contact"
 import Footer from "../components/footer"
+import Projects from "../components/projects"
 
 const IndexPage = () => (
   <Layout>
@@ -16,7 +17,7 @@ const IndexPage = () => (
     <Banner />
     <AboutMe />
     <Quote />
-    <Experience />
+    <Projects />
     <Skills />
     <Gallery />
     <Contact />

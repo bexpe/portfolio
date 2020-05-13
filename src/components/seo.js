@@ -29,12 +29,12 @@ function SEO({ description, lang, meta, title }) {
 
   return (
     <Helmet
-      htmlAttributes={{
+      htmlAttributes={ {
         lang,
-      }}
-      title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
-      meta={[
+      } }
+      title={ title }
+      titleTemplate={ `%s | ${site.siteMetadata.title}` }
+      meta={ [
         {
           name: `description`,
           content: metaDescription,
@@ -67,15 +67,15 @@ function SEO({ description, lang, meta, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
-      ].concat(meta)}
+      ].concat(meta) }
     />
   )
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `pl`,
   meta: [],
-  description: ``,
+  description: `strony internetowe, frontend developer, backend developer full stack react javascript html css python krakow`,
 }
 
 SEO.propTypes = {

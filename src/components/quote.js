@@ -26,22 +26,24 @@ const StyledTitle = styled.h3`
     font-weight: 300;
     letter-spacing: 1vw;
     font-style: italic; 
-    font-size: 3vw; 
+    font-size: 2vw;
     line-height: 3.5vw;
     margin: 30px 0 0 0;
 
     @media (orientation: portrait) {
         font-weight: 400;
+        font-size: 3vw;  
     }
 `;
 const StyledSubtile = styled.h4` 
     font-weight: 300;
     letter-spacing: 1.5vw;
     font-style: italic;
-    font-size: 4vw;
+    font-size: 3vw;
     line-height: 5vw;
 
     @media (orientation: portrait) {
+        font-size: 4vw;
         font-weight: 400;
     }
 `;

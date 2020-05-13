@@ -14,7 +14,7 @@ const StyledWrapper = styled.div`
 `;
 
 const StyledP = styled.p`
-    font-size: 2.5vw;
+    font-size: 2vw;
     line-height: 3,5vw;
     font-weight: 200;
     color: #3b3b3b;
@@ -22,7 +22,7 @@ const StyledP = styled.p`
 
 
     @media (orientation: portrait) {
-        font-size: 4vw;
+        font-size: 3vw;
         line-height: 4.5vw;
         }
 `;
@@ -38,15 +38,15 @@ const StyledDiv = styled.div`
 `;
 
 const StyledA = styled.a`
-    width: 5vw;
-    height: 5vw;
+    width: 4vw;
+    height: 4vw;
     text-decoration: none;
     color: #3b3b3b;
     text-align: center;
 
     @media (max-width: 768px) and (orientation: portrait) {
-        width: 9vw;
-        height: 9vw;
+        width: 7vw;
+        height: 7vw;
         cursor: pointer;
   }
 

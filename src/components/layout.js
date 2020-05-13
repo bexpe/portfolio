@@ -9,8 +9,8 @@ body {
   margin: 0;
   font-family: 'Lato';
   background-color: #f7f7f7;
-
 }
+
 body, body * {
   box-sizing: border-box;
 }

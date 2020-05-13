@@ -27,7 +27,6 @@ const Footer = () => (
     <StyledWrapper>
         <StyledP>© Copyright 2020. All Rights Reserved.</StyledP>
     </StyledWrapper>
-
 );
 
 export default Footer;
