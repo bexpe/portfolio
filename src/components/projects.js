@@ -2,8 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import Heading from '../components/heading';
 import Container from '../components/container';
-import majka from "../../assets/images/recent-projects/majka.png";
-import timer from "../../assets/images/recent-projects/timer.png";
+import majka from "../../assets/images/recent-projects/majka-min.png";
+import timer from "../../assets/images/recent-projects/timer-min.png";
 
 // const projects = [
 //     { key: majka, img: majka, url: "http://skarpetymajka.pl/" },
