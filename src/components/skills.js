@@ -38,36 +38,28 @@ const StyledLi = styled.li`
 const Skills = () => (
 
     <Container>
-        <Heading>Umiejętności</Heading>
+        <Heading>Skills</Heading>
         <StyledWrapper>
             <StyledUl>
-                <StyledLi>HTML</StyledLi>
-                <StyledLi>CSS</StyledLi>
+                <StyledLi>HTML, CSS</StyledLi>
                 <StyledLi>JS</StyledLi>
                 <StyledLi>React</StyledLi>
-                <StyledLi>Gulp</StyledLi>
                 <StyledLi>Gatsby</StyledLi>
-                <StyledLi>Visual Studio <br />Code</StyledLi>
                 <StyledLi>Wordpress</StyledLi>
             </StyledUl>
             <StyledUl>
-                <StyledLi>REST <br />Api</StyledLi>
+                <StyledLi>REST Api</StyledLi>
                 <StyledLi>JUnit</StyledLi>
-                <StyledLi>Mockito</StyledLi>
                 <StyledLi>SQL</StyledLi>
-                <StyledLi>ORM</StyledLi>
                 <StyledLi>Agile</StyledLi>
-                <StyledLi>Scrum</StyledLi>
                 <StyledLi>GIT</StyledLi>
             </StyledUl>
             <StyledUl>
                 <StyledLi>Java 8</StyledLi>
-                <StyledLi>Spring <br />MVC</StyledLi>
+                <StyledLi>Spring MVC</StyledLi>
                 <StyledLi>Maven</StyledLi>
-                <StyledLi>H2 <br />Database</StyledLi>
                 <StyledLi>Python</StyledLi>
-                <StyledLi>Spark</StyledLi>
-                <StyledLi>Jet Brains <br />Tools</StyledLi>
+                <StyledLi>Jet Brains Tools</StyledLi>
             </StyledUl>
         </StyledWrapper>
     </Container>

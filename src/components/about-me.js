@@ -20,16 +20,16 @@ const AboutMe = () => (
     <Container>
         <Heading>Beata Puzio-Gacek</Heading>
         <StyledAboutMeParagraph>
-            Pasjonuje mnie minimalizm oraz upraszczanie sobie życia, co bardzo pomaga mi w programowaniu.
+            I am passionate about minimalism and simplifying my life, which helps me a lot in programming.
         </StyledAboutMeParagraph>
         <StyledAboutMeParagraph>
-            Lubię, gdy strony internetowe są proste i intuicyjne, a dodatkowo ładują się w niezauważalnych dla ludzkiego oka prędkościach.
+            I like when websites are simple and intuitive, and they load at unnoticeable speeds.
         </StyledAboutMeParagraph>
         <StyledAboutMeParagraph>
-            Dlatego też zainteresował mnie framework webowy, jakim jest Gatsby.js i to w nim wykonana jest ta strona.
+            Therefore I was interested in the web framework, which is Gatsby.js, and this page is made on it.
         </StyledAboutMeParagraph>
         <StyledAboutMeParagraph>
-            Poza tym moim hobby jest nauka nowych rzeczy oraz muzyka.
+            Besides, my hobby is learning new things and music.
         </StyledAboutMeParagraph>
     </Container>
 )

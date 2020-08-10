@@ -6,7 +6,7 @@ import TicTacToeGame from '../tic-tac-toe-game';
 
 const Gallery = ({ target }) => (
     <Container>
-        <Heading>galeria</Heading>
+        <Heading>Gallery</Heading>
         <MemoryGame />
         <TicTacToeGame />
     </Container>

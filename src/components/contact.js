@@ -55,7 +55,7 @@ const StyledA = styled.a`
 const Contact = () => (
 
     <Container>
-        <Heading>Kontakt</Heading>
+        <Heading>Contact</Heading>
 
         <StyledWrapper>
             <StyledDiv>

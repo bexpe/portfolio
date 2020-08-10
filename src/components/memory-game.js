@@ -93,7 +93,7 @@ const MemoryGame = () => {
 
     return (
         <Container>
-            <GameHeading>Gra pamięciowa</GameHeading>
+            <GameHeading>memory game</GameHeading>
             <StyledWrapper>
                 { cards.map((card, index) => {
                     const backgroundImage = isClicked(index) || isVisible(index) ? `url(${card.img})` : 'none';

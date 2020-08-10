@@ -168,7 +168,7 @@ const TicTacToeGame = () => {
     }, [moves])
     return (
         <Container>
-            <GameHeading>Kółko - krzyżyk</GameHeading>
+            <GameHeading>tic-tac-toe game</GameHeading>
             {/* <PoseGroup>
                 { modalText && [
                     <StyledShade
