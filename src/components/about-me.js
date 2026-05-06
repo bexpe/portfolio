@@ -20,16 +20,19 @@ const AboutMe = () => (
     <Container>
         <Heading>Beata Puzio-Gacek</Heading>
         <StyledAboutMeParagraph>
-            I am passionate about minimalism and simplifying my life, which helps me a lot in programming.
+            I am a technology enthusiast with a strong interest in modern software development and infrastructure.
         </StyledAboutMeParagraph>
         <StyledAboutMeParagraph>
-            I like when websites are simple and intuitive, and they load at unnoticeable speeds.
+            I enjoy working with Kubernetes and DevOps practices.
         </StyledAboutMeParagraph>
         <StyledAboutMeParagraph>
-            Therefore I was interested in the web framework, which is Gatsby.js, and this page is made on it.
+            On the frontend side, I like developing applications using Vue.js, creating intuitive and responsive user interfaces.
         </StyledAboutMeParagraph>
         <StyledAboutMeParagraph>
-            Besides, my hobby is learning new things and music.
+            On the backend side, I prefer working with Python, where I can design clean, efficient, and maintainable services.
+        </StyledAboutMeParagraph>
+        <StyledAboutMeParagraph>
+            I am passionate about continuously learning new tools and improving my skills across the full stack.
         </StyledAboutMeParagraph>
     </Container>
 )
