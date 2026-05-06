@@ -7,23 +7,18 @@ import timer from "../../assets/images/recent-projects/timer-min.png";
 import euroautokar from "../../assets/images/recent-projects/euroautokar.png";
 import europodroze from "../../assets/images/recent-projects/europodroze.png";
 
-// const projects = [
-//     { key: majka, img: majka, url: "http://skarpetymajka.pl/" },
-//     { key: timer, img: timer, url: "/timer" }
-// ];
-
 const StyledMajkaContainer = styled.div`
     display: inline-block;
     background-image: url(${majka});
     height: 350px;
     width: 350px;
-    margin: 0 90px 50px 70px;
+    margin: 0 90px 50px 0;
     background-size: cover;
     border: 1px black solid;
 
     @media (orientation: portrait) {
-        height: 360px;
-        width: 360px;
+        height: 260px;
+        width: 260px;
     }
 `;
 
@@ -76,6 +71,8 @@ const StyledWrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
+    align-items: center;
+    width: 100%;
     justify-content: space-between;
 
     @media (orientation: portrait) and (max-width: 750px) {
