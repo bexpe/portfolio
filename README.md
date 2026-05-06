@@ -28,7 +28,6 @@ Portfolio stworzone przy użyciu **Gatsby.js** — szybkie, statyczne i zoptymal
 * 🖼️ Optymalizacja obrazów
 * 📂 Sekcja projektów
 * 📄 Strona „O mnie”
-* 📬 Formularz kontaktowy
 
 ---
 
