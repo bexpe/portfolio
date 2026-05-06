@@ -41,25 +41,25 @@ const Skills = () => (
         <Heading>Skills</Heading>
         <StyledWrapper>
             <StyledUl>
-                <StyledLi>HTML, CSS</StyledLi>
+                <StyledLi>HTML</StyledLi>
                 <StyledLi>JS</StyledLi>
                 <StyledLi>React</StyledLi>
-                <StyledLi>Gatsby</StyledLi>
+                <StyledLi>CSS</StyledLi>
                 <StyledLi>Wordpress</StyledLi>
             </StyledUl>
             <StyledUl>
-                <StyledLi>REST Api</StyledLi>
+                <StyledLi>Vue.js</StyledLi>
                 <StyledLi>JUnit</StyledLi>
-                <StyledLi>SQL</StyledLi>
-                <StyledLi>Agile</StyledLi>
+                <StyledLi>Docker</StyledLi>
+                <StyledLi>AWS</StyledLi>
                 <StyledLi>GIT</StyledLi>
             </StyledUl>
             <StyledUl>
-                <StyledLi>Java 8</StyledLi>
-                <StyledLi>Spring MVC</StyledLi>
-                <StyledLi>Maven</StyledLi>
+                <StyledLi>Kubernetes</StyledLi>
+                <StyledLi>Terraform</StyledLi>
+                <StyledLi>Linux</StyledLi>
                 <StyledLi>Python</StyledLi>
-                <StyledLi>Jet Brains Tools</StyledLi>
+                <StyledLi>Argo CD</StyledLi>
             </StyledUl>
         </StyledWrapper>
     </Container>

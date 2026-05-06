@@ -25,7 +25,7 @@ const StyledP = styled.p`
 
 const Footer = () => (
     <StyledWrapper>
-        <StyledP>© Copyright 2020. All Rights Reserved.</StyledP>
+        <StyledP>© Copyright 2026. All Rights Reserved.</StyledP>
     </StyledWrapper>
 );
 

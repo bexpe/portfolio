@@ -4,6 +4,8 @@ import Heading from '../components/heading';
 import Container from '../components/container';
 import majka from "../../assets/images/recent-projects/majka-min.png";
 import timer from "../../assets/images/recent-projects/timer-min.png";
+import euroautokar from "../../assets/images/recent-projects/euroautokar.png";
+import europodroze from "../../assets/images/recent-projects/europodroze.png";
 
 // const projects = [
 //     { key: majka, img: majka, url: "http://skarpetymajka.pl/" },
@@ -13,8 +15,38 @@ import timer from "../../assets/images/recent-projects/timer-min.png";
 const StyledMajkaContainer = styled.div`
     display: inline-block;
     background-image: url(${majka});
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
+    margin: 0 90px 50px 70px;
+    background-size: cover;
+    border: 1px black solid;
+
+    @media (orientation: portrait) {
+        height: 360px;
+        width: 360px;
+    }
+`;
+
+const StyledEuroautokarContainer = styled.div`
+    display: inline-block;
+    background-image: url(${euroautokar});
+    height: 350px;
+    width: 350px;
+    margin: 0 90px 50px 0;
+    background-size: cover;
+    border: 1px black solid;
+
+    @media (orientation: portrait) {
+        height: 260px;
+        width: 260px;
+    }
+`;
+
+const StyledEuropodrozeContainer = styled.div`
+    display: inline-block;
+    background-image: url(${europodroze});
+    height: 350px;
+    width: 350px;
     margin: 0 90px 50px 0;
     background-size: cover;
     border: 1px black solid;
@@ -44,9 +76,9 @@ const StyledWrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    justify-content: flex-start;
+    justify-content: space-between;
 
-    @media (orientation: portrait) and (max-width: 700px) {
+    @media (orientation: portrait) and (max-width: 750px) {
         flex-direction: column;
         align-items: center;
     }
@@ -56,10 +88,11 @@ const StyledDiv = styled.div
 
 const Projects = () => (
     <Container>
-        <Heading>projects</Heading>
+        <Heading>recent projects</Heading>
         <StyledWrapper>
             <a href="http://skarpetymajka.pl/"><StyledMajkaContainer></StyledMajkaContainer></a>
-            <a href="timer/"><StyledTimerContainer /></a>
+            <a href="http://euroautokar.pl/"><StyledEuroautokarContainer></StyledEuroautokarContainer></a>
+            <a href="http://europodroze.pl/"><StyledEuropodrozeContainer></StyledEuropodrozeContainer></a>
         </StyledWrapper>
 
     </Container>
