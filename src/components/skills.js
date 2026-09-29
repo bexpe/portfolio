@@ -45,21 +45,21 @@ const Skills = () => (
                 <StyledLi>JS</StyledLi>
                 <StyledLi>React</StyledLi>
                 <StyledLi>CSS</StyledLi>
-                <StyledLi>Wordpress</StyledLi>
+                <StyledLi>Vue.js</StyledLi>
             </StyledUl>
             <StyledUl>
-                <StyledLi>Vue.js</StyledLi>
+                <StyledLi>Wordpress</StyledLi>
                 <StyledLi>JUnit</StyledLi>
-                <StyledLi>Docker</StyledLi>
+                <StyledLi>Jira</StyledLi>
                 <StyledLi>AWS</StyledLi>
-                <StyledLi>GIT</StyledLi>
+                <StyledLi>Webpack</StyledLi>
             </StyledUl>
             <StyledUl>
                 <StyledLi>Kubernetes</StyledLi>
-                <StyledLi>Terraform</StyledLi>
+                <StyledLi>Docker</StyledLi>
                 <StyledLi>Linux</StyledLi>
                 <StyledLi>Python</StyledLi>
-                <StyledLi>Argo CD</StyledLi>
+                <StyledLi>GIT</StyledLi>
             </StyledUl>
         </StyledWrapper>
     </Container>

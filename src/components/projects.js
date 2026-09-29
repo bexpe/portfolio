@@ -6,6 +6,39 @@ import majka from "../../assets/images/recent-projects/majka-min.png";
 import timer from "../../assets/images/recent-projects/timer-min.png";
 import euroautokar from "../../assets/images/recent-projects/euroautokar.png";
 import europodroze from "../../assets/images/recent-projects/europodroze.png";
+import lulini from "../../assets/images/recent-projects/lulini.png";
+import tripbooker from "../../assets/images/recent-projects/tripbooker.png";
+import portfolio from "../../assets/images/recent-projects/portfolio.png";
+
+const StyledLuliniContainer = styled.div`
+    display: inline-block;
+    background-image: url(${lulini});
+    height: 350px;
+    width: 350px;
+    margin: 0 90px 50px 0;
+    background-size: cover;
+    border: 1px black solid;
+
+    @media (orientation: portrait) {
+        height: 260px;
+        width: 260px;
+    }
+`;
+
+const StyledTripbookerContainer = styled.div`
+    display: inline-block;
+    background-image: url(${tripbooker});
+    height: 350px;
+    width: 350px;
+    margin: 0 90px 50px 0;
+    background-size: cover;
+    border: 1px black solid;
+
+    @media (orientation: portrait) {
+        height: 260px;
+        width: 260px;
+    }
+`;
 
 const StyledMajkaContainer = styled.div`
     display: inline-block;
@@ -81,15 +114,33 @@ const StyledWrapper = styled.div`
     }
 `;
 
+const StyledPortfolioContainer = styled.div`
+    display: inline-block;
+    background-image: url(${portfolio});
+    height: 350px;
+    width: 350px;
+    margin: 0 90px 50px 0;
+    background-size: cover;
+    border: 1px black solid;
+
+    @media (orientation: portrait) {
+        height: 260px;
+        width: 260px;
+    }
+`;
+
 const StyledDiv = styled.div
 
 const Projects = () => (
     <Container>
         <Heading>recent projects</Heading>
         <StyledWrapper>
+            <a href="http://lulini.pl/"><StyledLuliniContainer></StyledLuliniContainer></a>
             <a href="http://skarpetymajka.pl/"><StyledMajkaContainer></StyledMajkaContainer></a>
             <a href="http://euroautokar.pl/"><StyledEuroautokarContainer></StyledEuroautokarContainer></a>
             <a href="http://europodroze.pl/"><StyledEuropodrozeContainer></StyledEuropodrozeContainer></a>
+            <a href="http://tripbooker.pl/"><StyledTripbookerContainer></StyledTripbookerContainer></a>
+            <a href="http://beatapuziogacek.pl/"><StyledPortfolioContainer></StyledPortfolioContainer></a>
         </StyledWrapper>
 
     </Container>
