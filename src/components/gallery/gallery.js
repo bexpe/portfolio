@@ -1,6 +1,6 @@
 import React from 'react';
 import Container from '../container';
-import Heading from '../Heading';
+import Heading from '../heading';
 import MemoryGame from '../memory-game';
 import TicTacToeGame from '../tic-tac-toe-game';
 
